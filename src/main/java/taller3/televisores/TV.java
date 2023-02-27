@@ -60,8 +60,12 @@ public class TV {
 		}
 	}
 	
-	public int getNumTV() {
+	public static int getNumTV() {
 		return numTV;
+	}
+	
+	public static void setNumTV(int NumTV) {
+		TV.numTV = NumTV;
 	}
 	
 	public void turnOn() {
